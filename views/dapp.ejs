@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html data-theme="dark" style="color-scheme: dark; --w3m-color-fg-1: rgb(228,231,231); --w3m-color-fg-2: rgb(148,158,158); --w3m-color-fg-3: rgb(110,119,119); --w3m-color-bg-1: rgb(20,20,20); --w3m-color-bg-2: rgb(39,42,42); --w3m-color-bg-3: rgb(59,64,64); --w3m-color-overlay: rgba(255,255,255,0.1); --w3m-accent-color: #3396FF; --w3m-accent-fill-color: #FFFFFF; --w3m-z-index: 89; --w3m-background-color: #3396FF; --w3m-background-border-radius: 8px; --w3m-container-border-radius: 30px; --w3m-wallet-icon-border-radius: 15px; --w3m-wallet-icon-large-border-radius: 30px; --w3m-wallet-icon-small-border-radius: 7px; --w3m-input-border-radius: 28px; --w3m-button-border-radius: 10px; --w3m-notification-border-radius: 36px; --w3m-secondary-button-border-radius: 28px; --w3m-icon-button-border-radius: 50%; --w3m-button-hover-highlight-border-radius: 10px; --w3m-text-big-bold-size: 20px; --w3m-text-big-bold-weight: 600; --w3m-text-big-bold-line-height: 24px; --w3m-text-big-bold-letter-spacing: -0.03em; --w3m-text-big-bold-text-transform: none; --w3m-text-xsmall-bold-size: 10px; --w3m-text-xsmall-bold-weight: 700; --w3m-text-xsmall-bold-line-height: 12px; --w3m-text-xsmall-bold-letter-spacing: 0.02em; --w3m-text-xsmall-bold-text-transform: uppercase; --w3m-text-xsmall-regular-size: 12px; --w3m-text-xsmall-regular-weight: 600; --w3m-text-xsmall-regular-line-height: 14px; --w3m-text-xsmall-regular-letter-spacing: -0.03em; --w3m-text-xsmall-regular-text-transform: none; --w3m-text-small-thin-size: 14px; --w3m-text-small-thin-weight: 500; --w3m-text-small-thin-line-height: 16px; --w3m-text-small-thin-letter-spacing: -0.03em; --w3m-text-small-thin-text-transform: none; --w3m-text-small-regular-size: 14px; --w3m-text-small-regular-weight: 600; --w3m-text-small-regular-line-height: 16px; --w3m-text-small-regular-letter-spacing: -0.03em; --w3m-text-small-regular-text-transform: none; --w3m-text-medium-regular-size: 16px; --w3m-text-medium-regular-weight: 600; --w3m-text-medium-regular-line-height: 20px; --w3m-text-medium-regular-letter-spacing: -0.03em; --w3m-text-medium-regular-text-transform: none; --w3m-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; --w3m-success-color: rgb(38,181,98); --w3m-error-color: rgb(242, 90, 103); --w3m-background-image-url: none;">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <title>PEPE AI</title>
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="description" content="PEPE AI">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="icon" href="https://dapp.pepeai.io/favicon.png">
+      <link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fimages%2Flogo%2Flogo-white.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo%2Flogo-white.png&amp;w=256&amp;q=75 2x" fetchpriority="high">
+      <link rel="preload" as="image" imagesrcset="/_next/image?url=%2Fimages%2Flogo%2Flogo-dark.png&amp;w=128&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo%2Flogo-dark.png&amp;w=256&amp;q=75 2x" fetchpriority="high">
+      <meta name="next-head-count" content="8">
+      <link data-next-font="" rel="preconnect" href="https://dapp.pepeai.io/" crossorigin="anonymous">
+      <link rel="preload" href="dapp_files/f7e6a41db429fedc.css" as="style">
+      <link rel="stylesheet" href="dapp_files/f7e6a41db429fedc.css" data-n-g="">
+      <noscript data-n-css=""></noscript>
+      <script defer="defer" nomodule="" src="dapp_files/polyfills-c67a75d1b6f99dc8.js"></script><script id="next-themes-script" src="data:text/javascript;base64,IWZ1bmN0aW9uKCl7dHJ5IHt2YXIgZD1kb2N1bWVudC5kb2N1bWVudEVsZW1lbnQ7dmFyIG49J2RhdGEtdGhlbWUnO3ZhciBzID0gJ3NldEF0dHJpYnV0ZSc7dmFyIGU9bG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3RoZW1lJyk7aWYoInN5c3RlbSI9PT1lfHwoIWUmJmZhbHNlKSl7dmFyIHQ9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykiLG09d2luZG93Lm1hdGNoTWVkaWEodCk7aWYobS5tZWRpYSE9PXR8fG0ubWF0Y2hlcyl7ZC5zdHlsZS5jb2xvclNjaGVtZSA9ICdkYXJrJztkW3NdKG4sICdkYXJrJyl9ZWxzZXtkLnN0eWxlLmNvbG9yU2NoZW1lID0gJ2xpZ2h0JztkW3NdKG4sICdsaWdodCcpfX1lbHNlIGlmKGUpe2Rbc10obiwgZXx8ICcnKX1lbHNle2Rbc10obiwgJ2RhcmsnKX1pZihlPT09J2xpZ2h0J3x8ZT09PSdkYXJrJ3x8IWUpZC5zdHlsZS5jb2xvclNjaGVtZT1lfHwnZGFyayd9Y2F0Y2goZSl7fX0oKQ==" defer="defer" data-nscript="beforeInteractive"></script><script src="dapp_files/webpack-36dd0c69a78db56d.js" defer="defer"></script><script src="dapp_files/framework-73b8966a3c579ab0.js" defer="defer"></script><script src="dapp_files/main-75c7a8a7475c0825.js" defer="defer"></script><script src="dapp_files/_app-96775b0f8cde5988.js" defer="defer"></script><script src="dapp_files/d7eeaac4-0755591651742e30.js" defer="defer"></script><script src="dapp_files/252f366e-10ba754b55a6aff8.js" defer="defer"></script><script src="dapp_files/0c428ae2-acb9160cd931d711.js" defer="defer"></script><script src="dapp_files/4072747d-39c9804688118da1.js" defer="defer"></script><script src="dapp_files/809-fd3fd748f916c35b.js" defer="defer"></script><script src="dapp_files/415-f56cd0469dd9fa33.js" defer="defer"></script><script src="dapp_files/878-2af93f4d0445dffc.js" defer="defer"></script><script src="dapp_files/983-50e39e06470569d7.js" defer="defer"></script><script src="dapp_files/253-5aa7280653ebc881.js" defer="defer"></script><script src="dapp_files/658-3440af0f0f0852c7.js" defer="defer"></script><script src="dapp_files/734-36faf8afd5324596.js" defer="defer"></script><script src="dapp_files/225-238755a8f989da3e.js" defer="defer"></script><script src="dapp_files/index-511365c6361c5c5b.js" defer="defer"></script><script src="dapp_files/_buildManifest.js" defer="defer"></script><script src="dapp_files/_ssgManifest.js" defer="defer"></script>
+      <style data-emotion="css 8atqhb" data-s="">.css-8atqhb{width:100%;}</style>
+      <style data-emotion="css 1gsv261" data-s="">.css-1gsv261{border-bottom:1px solid;border-color:rgba(0, 0, 0, 0.12);}</style>
+      <style data-emotion="css pc1mzd" data-s="">.css-pc1mzd{overflow:hidden;min-height:48px;-webkit-overflow-scrolling:touch;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}</style>
+      <style data-emotion="css 1anid1y" data-s="">.css-1anid1y{position:relative;display:inline-block;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;white-space:nowrap;overflow-x:hidden;width:100%;}</style>
+      <style data-emotion="css k008qs" data-s="">.css-k008qs{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}</style>
+      <style data-emotion="css e7596f" data-s="">.css-e7596f{font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.25;letter-spacing:0.02857em;text-transform:uppercase;max-width:none;min-width:90px;position:relative;min-height:72px;-webkit-flex-shrink:1;-ms-flex-negative:1;flex-shrink:1;padding:12px 16px;overflow:hidden;white-space:normal;text-align:center;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;padding-top:9px;padding-bottom:9px;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;}.css-e7596f>.MuiTab-iconWrapper{margin-right:8px;}</style>
+      <style data-emotion="css 1ejnn2k" data-s="">.css-1ejnn2k{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.25;letter-spacing:0.02857em;text-transform:uppercase;max-width:none;min-width:90px;position:relative;min-height:72px;-webkit-flex-shrink:1;-ms-flex-negative:1;flex-shrink:1;padding:12px 16px;overflow:hidden;white-space:normal;text-align:center;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;padding-top:9px;padding-bottom:9px;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;}.css-1ejnn2k::-moz-focus-inner{border-style:none;}.css-1ejnn2k.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-1ejnn2k{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-1ejnn2k>.MuiTab-iconWrapper{margin-right:8px;}</style>
+      <style data-emotion="css axpu1l" data-s="">.css-axpu1l{position:absolute;height:2px;bottom:0;width:100%;-webkit-transition:all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;background-color:#9c27b0;}</style>
+      <style data-emotion="css 19kzrtu" data-s="">.css-19kzrtu{padding:24px;}</style>
+      <style data-emotion="css 9l3uo3" data-s="">.css-9l3uo3{margin:0;font-family:"Roboto","Helvetica","Arial",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;}</style>
+      <style data-emotion="css" data-s=""></style>
+   </head>
+   <style>
+      body::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-image: url(https://dapp.pepeai.io/images/bg/noise.gif);
+      z-index: -1000 !important;
+      background-color: rebeccapurple !important;
+      opacity: .05;
+      }
+
+
+      .logo-thumbnail {
+        width: 100px;
+        height: 37px;
+        position: absolute;
+        color: #000;
+        content: "";
+        object-fit: cover;
+        background-position:center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://dapp.pepeai.io/_next/image?url=%2Fimages%2Flogo%2Flogo-white.png&w=256&q=75) !important;
+      }
+
+      .logo-thumbnail img {
+	max-height: 35px;
+    display: none;
+	object-fit: cover;
+}
+
+.col-md-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+  height:150px;
+  /* display: none ; */
+  object-fit: cover;
+ background-position:center;
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-image: url(https://dapp.pepeai.io/images/logo/one.png) !important;
+}
+
+.col-md-2 img{
+    display: none;
+}
+
+
+.msg-img-bot {
+	background-image: url(https://dapp.pepeai.io/images/logo/one.png);
+}
+
+#home{
+    display: none;
+}
+
+      
+   </style>
+
+  
+   <body 
+      class="template-color-1"  >
+      <div id="__next">
+         <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
+            <div class="container">
+               <div class="header-inner">
+                  <div class="header-left">
+                     <div class="logo-thumbnail logo-custom-css">
+                        <a rel="preload" href="/" class="logo-light">
+     <img alt=" " fetchpriority="high" decoding="async" data-nimg="1" style="color: transparent;" srcset="./dapp_files/logo-white.webp 1x, dapp_files/logo-white_002.webp 2x" src="https://dapp.pepeai.io/_next/image?url=%2Fimages%2Flogo%2Flogo-white.png&w=128&q=75" 
+                            width="106" height="35"></a>
+                            <a rel="preload" href="/" class="logo-dark">
+        <img alt=" " fetchpriority="high" decoding="async" data-nimg="1" style="color: transparent;" srcset="https://dapp.pepeai.io/_next/image?url=%2Fimages%2Flogo%2Flogo-white.png&w=128&q=75  1x, dapp_files/logo-dark_002.webp 2x" src="https://dapp.pepeai.io/_next/image?url=%2Fimages%2Flogo%2Flogo-white.png&w=128&q=75" width="106" height="35">
+                            </a>
+                            </div>
+                     <div class="mainmenu-wrapper"> 
+                         <nav id="sideNav" class="mainmenu-nav d-none d-xl-block">
+                           <ul class="mainmenu">
+                              <li  id="home" class=""><a rel="preload" class="" href="/">Home</a></li>
+                              <li class=""><a rel="preload" href="/" class="its_new">PEPEdd AI</a></li>
+                              <li class=""><a rel="preload" href="/live" class="its_new">AI Memes</a></li>
+                              <li class=""><a rel="preload" href="/play" class="its_new">Play</a></li>
+                              <li class=""><a class="its_new" href="#">NFT Marketplace<span class="coming-soon-tag">Coming Soon</span></a></li>
+                           </ul>
+                        </nav> 
+                      </div>
+                  </div>
+                  <div class="header-right">
+                     <div class="setting-option header-btn"></div>
+                     <div class="setting-option header-btn">
+                        <div class="icon-box">
+                            <button class="connectBtn btn btn-small btn-primary-alta" type="button"><span>Connect Wallet</span>
+                            </button></div>
+                     </div>
+                     <div class="setting-option mobile-menu-bar d-block d-xl-none">
+                        <div class="hamberger">
+                            <button type="button" class="hamberger-button"><i class="feather-menu"></i></button></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <main id="main-content">
+            <div class="create-area mt--20">
+               <div class="container">
+                  <div class="MuiBox-root css-8atqhb">
+                     <div class="MuiBox-root css-1gsv261">
+                        <div class="MuiTabs-root css-pc1mzd">
+                           <div class="MuiTabs-scroller MuiTabs-fixed css-1anid1y" style="overflow: hidden; margin-bottom: 0px;">
+                              <div aria-label="secondary tabs example" class="MuiTabs-flexContainer css-k008qs" role="tablist">
+                                 <button class="MuiButtonBase-root MuiTab-root MuiTab-labelIcon MuiTab-textColorWhite MuiTab-fullWidth css-1ejnn2k" tabindex="-1" type="button" role="tab" aria-selected="false" style="font-size: 16px;">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="MuiTab-iconWrapper" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                                       <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"></path>
+                                    </svg>
+                                    Image<span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                 </button>
+                                 <button class="MuiButtonBase-root MuiTab-root MuiTab-labelIcon MuiTab-textColorWhite MuiTab-fullWidth Mui-selected css-1ejnn2k" tabindex="0" type="button" role="tab" aria-selected="true" style="font-size: 16px;">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" t="1569682613478" viewBox="0 0 1024 1024" version="1.1" class="MuiTab-iconWrapper" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                       <defs></defs>
+                                       <path d="M852 64H172c-17.7 0-32 14.3-32 32v660c0 17.7 14.3 32 32 32h680c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zM300 328c0-33.1 26.9-60 60-60s60 26.9 60 60-26.9 60-60 60-60-26.9-60-60z m372 248c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-60c0-4.4 3.6-8 8-8h304c4.4 0 8 3.6 8 8v60z m-8-188c-33.1 0-60-26.9-60-60s26.9-60 60-60 60 26.9 60 60-26.9 60-60 60zM799 864H225c-13.8 0-25 14.3-25 32v56c0 4.4 2.8 8 6.2 8h611.5c3.4 0 6.2-3.6 6.2-8v-56c0.1-17.7-11.1-32-24.9-32z"></path>
+                                    </svg>
+                                    PEPE<span class="MuiTouchRipple-root css-w0pj6f"></span>
+                                 </button>
+                              </div>
+                              <span class="MuiTabs-indicator css-axpu1l" style="left: 554px; width: 554px;"></span>
+                           </div>
+                        </div>
+                     </div>
+                     <div role="tabpanel" id="simple-tabpanel-0" aria-labelledby="simple-tab-0" hidden=""></div>
+                     <div role="tabpanel" id="simple-tabpanel-2" aria-labelledby="simple-tab-2">
+                        <div class="MuiBox-root css-19kzrtu">
+                           <p class="MuiTypography-root MuiTypography-body1 css-9l3uo3">
+                           <section class="msger fixedchat mt--30">
+                              <main class="msger-chat fixedchatrizz">
+                                 <div class="float-left clear-both">
+                                    <div class="msg left-msg">
+                                       <div class="msg-img-bot"></div>
+                                       <div class="msg-bubble">
+                                          <div class="msg-info">
+                                             <div class="msg-info-name">PEPE</div>
+                                          </div>
+                                          <div class="msg-text" style="font-size: 16px;"><span>Hi! I’m Pepe, pepe will go to the moon and beyond!!<br></span></div>
+                                       </div>one
+                                    </div>
+                                 </div>
+                                 <div class="float-left clear-both">
+                                    <div class="msg left-msg">
+                                       <div class="msg-img-bot"></div>
+                                       <div class="msg-bubble">
+                                          <div class="msg-info">
+                                             <div class="msg-info-name">PEPE</div>
+                                          </div>
+                                          <div class="msg-text" style="font-size: 16px;"><span>Please connect your wallet!<br></span></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </main>
+                              <div class="mt-6 flex clear-both"><input type="text" aria-label="chat input" required="" class="" style="background-color: rgb(33, 46, 72);">
+                                <button class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-600 font-semibold text-zinc-100 hover:bg-zinc-400 active:bg-zinc-800 active:text-zinc-100/70" type="submit" style="font-size: 16px;">Ask a question</button></div>
+                           </section>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+         <div class="rn-footer-one bg-color--1 rn-section-gap mt--100 mt_md--80 mt_sm--80"></div>
+         <div class="copy-right-one ptb--20 bg-color--1">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                     <div class="copyright-left">
+                        <span>Made with ❤️ by PEPEAI</span>
+                        <ul class="privacy"></ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="rn-progress-parent" role="button" tabindex="-1">
+            <svg class="rn-back-circle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
+               <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 307.919px;">
+
+            </path>
+            </svg>
+         </div>
+         <div class="Toastify"></div>
+         <w3m-modal></w3m-modal>
+      </div>
+      <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"className":"template-color-1"},"__N_SSG":true},"page":"/","query":{},"buildId":"Cmv_6HxNz70T4dJvXcU-8","runtimeConfig":{"NAME":"PEPEAI","API":"https://dapp.pepeai.io/web/api","PAY_CONTRACT":"0x158a584fDa7290D47Bdd719b2838edb6171dA7de","NETWORK_ID":56,"COIN_WATCH":"https://api.livecoinwatch.com/coins/single","IMAGE_CDN":"https://midwaylive.fra1.cdn.digitaloceanspaces.com/","DISCORD":"https://discord.com/invite/Tqhtk7XTqQ","TELEGRAM":"http://t.me/midwayai","TWITTER":"https://twitter.com/MidwayAI","TOKEN_ADDRESS":"","CHART":"","DEX":""},"isFallback":false,"gsp":true,"scriptLoader":[]}</script>
+      <next-route-announcer>
+         <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px none; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p>
+      </next-route-announcer>
+   </body>
+</html>

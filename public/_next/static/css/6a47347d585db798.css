@@ -1,0 +1,81 @@
+.overlay-fade-story {
+  bottom: 0;
+  z-index: 100;
+  background: linear-gradient(0deg, #000, transparent),
+    linear-gradient(0deg, #000, transparent),
+    linear-gradient(0deg, #000, transparent);
+}
+.overlay-fade-story,
+.overlay-fade-top {
+  position: absolute;
+  content: "";
+  width: 105%;
+  left: 0;
+  right: 0;
+  height: 80px;
+  border-radius: 1rem;
+}
+.overlay-fade-top {
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(180deg, #000, transparent),
+    linear-gradient(180deg, #000, transparent),
+    linear-gradient(180deg, #000, transparent);
+}
+.overlay-fade-right {
+  z-index: 1000;
+  right: -10px;
+  background: linear-gradient(270deg, #000, transparent),
+    linear-gradient(270deg, #000, transparent),
+    linear-gradient(270deg, #000, transparent);
+}
+.overlay-fade-left,
+.overlay-fade-right {
+  position: absolute;
+  content: "";
+  width: 10%;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  border-radius: 1rem;
+}
+.overlay-fade-left {
+  z-index: 100;
+  left: -10px;
+  background: linear-gradient(90deg, #000, transparent),
+    linear-gradient(90deg, #000, transparent),
+    linear-gradient(90deg, #000, transparent);
+}
+@media (min-width: 968px) {
+  .overlay-fade-story,
+  .overlay-fade-top {
+    max-width: calc(100% - 27rem);
+  }
+}
+@media (min-width: 1468px) {
+  .overlay-fade-story,
+  .overlay-fade-top {
+    max-width: calc(100% - 27rem);
+  }
+}
+@media (max-height: 800px) {
+  .overlay-fade-story,
+  .overlay-fade-top {
+    max-width: 100%;
+  }
+}
+@media (max-height: 425px) {
+  .overlay-fade-story,
+  .overlay-fade-top {
+    z-index: 10;
+  }
+}
+.verticalWritingMode {
+  writing-mode: initial;
+}
+@media (min-width: 1680px) {
+  .verticalWritingMode {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+}
