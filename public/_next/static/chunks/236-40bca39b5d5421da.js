@@ -478,7 +478,7 @@
         p = [
           {
             data: [
-              { id: 1, title: "$5k-10k" },
+              { id: 1, title: "$1k-10k" },
               { id: 2, title: "$10-20k" },
               { id: 3, title: "$20-30k" },
               { id: 4, title: "$30-50k" },
@@ -487,9 +487,10 @@
             id: "projectbudget",
             title: "Project budget (usd)",
           },
+          // CHANGE DATA FOR CONTACT SERVICES
           {
             data: [
-              { id: 1, title: "UI/UX Design" },
+              { id: 1, title: "Training" },
               { id: 2, title: "Web Development" },
               { id: 3, title: "Web Application" },
               { id: 4, title: "Web Redesign" },
