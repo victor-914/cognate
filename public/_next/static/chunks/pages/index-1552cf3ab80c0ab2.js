@@ -73,24 +73,24 @@
                   width: 153,
                   height: 112,
                   fill: "#000",
-                },
-                o.createElement("path", { fill: "#fff", d: "M0 0h153v112H0z" }),
-                o.createElement("path", {
-                  fillRule: "evenodd",
-                  clipRule: "evenodd",
-                  d: "M2 2h19.703v48.965h20.018v-.004h50.276c7.453 0 13.299-1.608 17.538-4.53 4.238-2.924 6.43-6.14 6.43-11.255v-1.753c0-5.262-2.192-8.623-6.284-11.4-4.239-2.923-10.23-4.238-17.83-4.238H41.72V2h51.883c7.308 0 13.738.877 19.438 2.485 5.7 1.754 10.377 4.238 14.031 7.308 3.215 2.776 5.553 5.846 7.161 9.5 1.754 3.507 2.485 6.868 2.485 11.107v1.754c-.147 8.184-2.631 13.884-7.746 18.853-4.97 4.969-11.692 8.477-19.877 10.377l40.446 46.584h-23.968L88.008 67.319h-2.691v.004H2V2Zm86.008 92.81H2v15.69H101.721l-.3-.361-13.413-15.33Z",
-                })
-              ),
-              o.createElement("path", {
-                d: "M21.703 2h1.323V.677h-1.323V2ZM2 2V.677H.677V2H2Zm19.703 48.965H20.38v1.323h1.323v-1.323Zm20.018 0v1.323h1.323v-1.323h-1.323Zm0-.004v-1.323h-1.323v1.323h1.323Zm67.814-4.53-.752-1.09.752 1.09Zm.146-24.408-.751 1.09.008.005.743-1.095Zm-67.96-4.238h-1.323v1.323h1.323v-1.323Zm0-15.785V.677h-1.323V2h1.323Zm71.321 2.485.389-1.265-.015-.004-.015-.005-.359 1.274Zm14.031 7.308.865-1.002-.007-.006-.007-.006-.851 1.014Zm7.161 9.5-1.211.532.013.03.015.029 1.183-.592Zm2.485 12.86 1.323.024v-.023h-1.323Zm-7.746 18.854-.922-.95-.007.007-.007.007.936.936Zm-19.877 10.377-.299-1.29-2.141.498 1.441 1.659.999-.868Zm40.446 46.584v1.323h2.901l-1.902-2.191-.999.868Zm-23.968 0-.993.874.395.449h.598v-1.323ZM88.008 67.319l.993-.874-.395-.449h-.598v1.323Zm-2.691 0v-1.323h-1.323v1.323h1.323Zm0 .004v1.323h1.323v-1.323h-1.323ZM2 67.323H.677v1.323H2v-1.323ZM2 94.81v-1.324H.677v1.323H2Zm86.008 0 .996-.872-.396-.452h-.6v1.323ZM2 110.5H.677v1.323H2V110.5Zm99.721 0v1.323h2.819l-1.801-2.168-1.018.845Zm-.3-.361 1.018-.846-.011-.013-.011-.013-.996.872ZM21.703.677H2v2.646h19.703V.677Zm1.323 50.288V2H20.38v48.965h2.646Zm18.695-1.323H21.703v2.646h20.018v-2.646Zm-1.323 1.319v.004h2.646v-.004h-2.646Zm51.599-1.323H41.72v2.646h50.276v-2.646Zm16.786-4.297c-3.953 2.727-9.512 4.297-16.786 4.297v2.646c7.632 0 13.766-1.645 18.289-4.765l-1.503-2.178Zm5.859-10.165c0 2.356-.501 4.197-1.439 5.772-.948 1.59-2.394 2.996-4.42 4.393l1.503 2.178c2.213-1.526 3.982-3.19 5.19-5.216 1.217-2.043 1.812-4.367 1.812-7.127h-2.646Zm0-1.753v1.753h2.646v-1.753h-2.646Zm-5.704-10.305c1.933 1.312 3.34 2.71 4.272 4.332.927 1.614 1.432 3.535 1.432 5.973h2.646c0-2.824-.591-5.215-1.783-7.29-1.187-2.068-2.922-3.74-5.081-5.205l-1.486 2.19Zm-17.088-4.01c7.482 0 13.16 1.301 17.08 4.004l1.502-2.178c-4.557-3.143-10.864-4.473-18.582-4.473v2.647Zm-50.129 0h50.13v-2.646H41.72v2.646ZM40.398 2v15.785h2.646V2h-2.646ZM93.604.677H41.721v2.647h51.883V.677Zm19.797 2.534C107.571 1.568 101.018.678 93.604.678v2.647c7.201 0 13.51.864 19.079 2.434l.718-2.546Zm14.523 7.568c-3.811-3.2-8.653-5.762-14.493-7.559l-.778 2.53c5.56 1.71 10.072 4.119 13.569 7.056l1.702-2.027Zm7.521 9.98c-1.694-3.85-4.158-7.076-7.507-9.968l-1.73 2.003c3.081 2.661 5.294 5.575 6.815 9.031l2.422-1.066Zm2.597 11.64c0-4.419-.768-7.986-2.625-11.698l-2.366 1.183c1.651 3.303 2.344 6.458 2.344 10.516h2.647Zm0 1.755V32.4h-2.647v1.754h2.647Zm-8.147 19.802c5.384-5.231 7.995-11.273 8.147-19.779l-2.646-.047c-.141 7.862-2.5 13.22-7.345 17.928l1.844 1.898Zm-20.5 10.716c8.378-1.944 15.337-5.554 20.513-10.73l-1.871-1.87c-4.762 4.762-11.249 8.167-19.24 10.023l.598 2.577Zm41.146 44.428-40.446-46.584-1.998 1.735 40.446 46.584 1.998-1.735Zm-24.967 2.191h23.968v-2.646h-23.968v2.646ZM87.015 68.194l37.566 42.648 1.985-1.749-37.565-42.648-1.986 1.749Zm-1.698.448h2.691v-2.646h-2.691v2.646Zm1.323-1.319v-.004h-2.646v.004h2.646ZM2 68.646h83.317V66H2v2.646ZM.677 2v65.323h2.646V2H.677ZM2 96.133h86.008v-2.647H2v2.647ZM3.323 110.5V94.81H.677v15.69h2.646Zm84.685-1.323H2v2.646h86.008v-2.646Zm13.713 0H88.008v2.646h13.713v-2.646Zm-1.318 1.807.3.362 2.036-1.691-.3-.362-2.036 1.691Zm-13.39-15.303 13.412 15.329 1.992-1.743-13.413-15.329-1.992 1.743Z",
-                fill: "#fff",
-                mask: "url(#refine-carousel_svg__a)",
-              }),
-              o.createElement("path", {
-                d: "M283.951 110.873h.662V91.797H182.268V62.402h93.237V43.326h-93.237V20.414H284.613V1.493H162.112V110.873h121.839Zm35.649-.662V63.636h92.003V44.715H319.6V20.415h102.499V1.493H299.444V110.873H319.6v-.662Zm186.064-18.414h-26.661V20.414h27.323V1.493h-74.802v18.921h27.323v71.383h-27.323V110.873h74.802V91.797h-.662Zm15.531 18.414v.662h20.156V27.856l81.144 82.818.194.199h21.008V1.338h-20.156V84.2L542.552 1.538l-.195-.199h-21.162v108.873Zm264.599.662h.662V91.797H684.11V62.402h93.238V43.326H684.11V20.414h102.346V1.493H663.955V110.873h121.839Z",
-                stroke: "#fff",
-                strokeWidth: 1.323,
-              })
+                }
+                // refine carousel overlay***
+                // o.createElement("path", { fill: "#003", d: "M0 0h153v112H0z" })
+                // o.createElement("path", {
+                //   fillRule: "evenodd",
+                //   clipRule: "evenodd",
+                //   d: "M2 2h19.703v48.965h20.018v-.004h50.276c7.453 0 13.299-1.608 17.538-4.53 4.238-2.924 6.43-6.14 6.43-11.255v-1.753c0-5.262-2.192-8.623-6.284-11.4-4.239-2.923-10.23-4.238-17.83-4.238H41.72V2h51.883c7.308 0 13.738.877 19.438 2.485 5.7 1.754 10.377 4.238 14.031 7.308 3.215 2.776 5.553 5.846 7.161 9.5 1.754 3.507 2.485 6.868 2.485 11.107v1.754c-.147 8.184-2.631 13.884-7.746 18.853-4.97 4.969-11.692 8.477-19.877 10.377l40.446 46.584h-23.968L88.008 67.319h-2.691v.004H2V2Zm86.008 92.81H2v15.69H101.721l-.3-.361-13.413-15.33Z",
+                // })
+              )
+              // o.createElement("path", {141
+              // d: "M21.703 2h1.323V.677h-1.323V2ZM2 2V.677H.677V2H2Zm19.703 48.965H20.38v1.323h1.323v-1.323Zm20.018 0v1.323h1.323v-1.323h-1.323Zm0-.004v-1.323h-1.323v1.323h1.323Zm67.814-4.53-.752-1.09.752 1.09Zm.146-24.408-.751 1.09.008.005.743-1.095Zm-67.96-4.238h-1.323v1.323h1.323v-1.323Zm0-15.785V.677h-1.323V2h1.323Zm71.321 2.485.389-1.265-.015-.004-.015-.005-.359 1.274Zm14.031 7.308.865-1.002-.007-.006-.007-.006-.851 1.014Zm7.161 9.5-1.211.532.013.03.015.029 1.183-.592Zm2.485 12.86 1.323.024v-.023h-1.323Zm-7.746 18.854-.922-.95-.007.007-.007.007.936.936Zm-19.877 10.377-.299-1.29-2.141.498 1.441 1.659.999-.868Zm40.446 46.584v1.323h2.901l-1.902-2.191-.999.868Zm-23.968 0-.993.874.395.449h.598v-1.323ZM88.008 67.319l.993-.874-.395-.449h-.598v1.323Zm-2.691 0v-1.323h-1.323v1.323h1.323Zm0 .004v1.323h1.323v-1.323h-1.323ZM2 67.323H.677v1.323H2v-1.323ZM2 94.81v-1.324H.677v1.323H2Zm86.008 0 .996-.872-.396-.452h-.6v1.323ZM2 110.5H.677v1.323H2V110.5Zm99.721 0v1.323h2.819l-1.801-2.168-1.018.845Zm-.3-.361 1.018-.846-.011-.013-.011-.013-.996.872ZM21.703.677H2v2.646h19.703V.677Zm1.323 50.288V2H20.38v48.965h2.646Zm18.695-1.323H21.703v2.646h20.018v-2.646Zm-1.323 1.319v.004h2.646v-.004h-2.646Zm51.599-1.323H41.72v2.646h50.276v-2.646Zm16.786-4.297c-3.953 2.727-9.512 4.297-16.786 4.297v2.646c7.632 0 13.766-1.645 18.289-4.765l-1.503-2.178Zm5.859-10.165c0 2.356-.501 4.197-1.439 5.772-.948 1.59-2.394 2.996-4.42 4.393l1.503 2.178c2.213-1.526 3.982-3.19 5.19-5.216 1.217-2.043 1.812-4.367 1.812-7.127h-2.646Zm0-1.753v1.753h2.646v-1.753h-2.646Zm-5.704-10.305c1.933 1.312 3.34 2.71 4.272 4.332.927 1.614 1.432 3.535 1.432 5.973h2.646c0-2.824-.591-5.215-1.783-7.29-1.187-2.068-2.922-3.74-5.081-5.205l-1.486 2.19Zm-17.088-4.01c7.482 0 13.16 1.301 17.08 4.004l1.502-2.178c-4.557-3.143-10.864-4.473-18.582-4.473v2.647Zm-50.129 0h50.13v-2.646H41.72v2.646ZM40.398 2v15.785h2.646V2h-2.646ZM93.604.677H41.721v2.647h51.883V.677Zm19.797 2.534C107.571 1.568 101.018.678 93.604.678v2.647c7.201 0 13.51.864 19.079 2.434l.718-2.546Zm14.523 7.568c-3.811-3.2-8.653-5.762-14.493-7.559l-.778 2.53c5.56 1.71 10.072 4.119 13.569 7.056l1.702-2.027Zm7.521 9.98c-1.694-3.85-4.158-7.076-7.507-9.968l-1.73 2.003c3.081 2.661 5.294 5.575 6.815 9.031l2.422-1.066Zm2.597 11.64c0-4.419-.768-7.986-2.625-11.698l-2.366 1.183c1.651 3.303 2.344 6.458 2.344 10.516h2.647Zm0 1.755V32.4h-2.647v1.754h2.647Zm-8.147 19.802c5.384-5.231 7.995-11.273 8.147-19.779l-2.646-.047c-.141 7.862-2.5 13.22-7.345 17.928l1.844 1.898Zm-20.5 10.716c8.378-1.944 15.337-5.554 20.513-10.73l-1.871-1.87c-4.762 4.762-11.249 8.167-19.24 10.023l.598 2.577Zm41.146 44.428-40.446-46.584-1.998 1.735 40.446 46.584 1.998-1.735Zm-24.967 2.191h23.968v-2.646h-23.968v2.646ZM87.015 68.194l37.566 42.648 1.985-1.749-37.565-42.648-1.986 1.749Zm-1.698.448h2.691v-2.646h-2.691v2.646Zm1.323-1.319v-.004h-2.646v.004h2.646ZM2 68.646h83.317V66H2v2.646ZM.677 2v65.323h2.646V2H.677ZM2 96.133h86.008v-2.647H2v2.647ZM3.323 110.5V94.81H.677v15.69h2.646Zm84.685-1.323H2v2.646h86.008v-2.646Zm13.713 0H88.008v2.646h13.713v-2.646Zm-1.318 1.807.3.362 2.036-1.691-.3-.362-2.036 1.691Zm-13.39-15.303 13.412 15.329 1.992-1.743-13.413-15.329-1.992 1.743Z",
+              //   fill: "#fff",
+              //   mask: "url(#refine-carousel_svg__a)",
+              // }),  // o.createElement("path", {
+              //   d: "M283.951 110.873h.662V91.797H182.268V62.402h93.237V43.326h-93.237V20.414H284.613V1.493H162.112V110.873h121.839Zm35.649-.662V63.636h92.003V44.715H319.6V20.415h102.499V1.493H299.444V110.873H319.6v-.662Zm186.064-18.414h-26.661V20.414h27.323V1.493h-74.802v18.921h27.323v71.383h-27.323V110.873h74.802V91.797h-.662Zm15.531 18.414v.662h20.156V27.856l81.144 82.818.194.199h21.008V1.338h-20.156V84.2L542.552 1.538l-.195-.199h-21.162v108.873Zm264.599.662h.662V91.797H684.11V62.402h93.238V43.326H684.11V20.414h102.346V1.493H663.955V110.873h121.839Z",
+              //   stroke: "#fff",
+              //   strokeWidth: 1.323,
+              // })
             ))
         );
       };
@@ -348,54 +348,55 @@
           H.Q.HOVER,
           H.Q.CLICK_1
         );
+        // cases studies link
         return (0, a.jsxs)("div", {
           className:
             "flex justify-between sm:justify-end w-full gap-2 text-xs items-center px-5 relative",
           children: [
-            (0, a.jsx)(v(), {
-              "data-original-text": "CaseStudies",
-              onMouseEnter: (e) => {
-                x(e), f();
-              },
-              onMouseDown: b,
-              href: "/case-studies/".concat(j.ZP[0].slug),
-              className:
-                "duration-200 border-[0.5px] hover:text-accent border-lightGray ease-in-out hover:scale-[102.5%] hover:bg-opacity-30 hover:bg-gray border-opacity-40 text-lightGray uppercase rounded-lg px-4 py-2 flex items-center justify-center gap-2 truncate",
-              children: "CaseStudies",
-            }),
-            (0, a.jsx)("button", {
-              type: "button",
-              "data-original-text": "Filter",
-              onMouseEnter: (e) => {
-                x(e), f();
-              },
-              onMouseDown: b,
-              onClick: () => p(w.ZP.MAIN),
-              className:
-                "duration-200 border-[0.5px] hover:text-accent border-lightGray ease-in-out hover:scale-[102.5%] hover:bg-opacity-30 hover:bg-gray border-opacity-40 text-lightGray uppercase rounded-lg px-4 py-2 flex items-center justify-center gap-2 truncate",
-              children: "Filter",
-            }),
-            (0, a.jsxs)(u.M, {
-              children: [
-                e &&
-                  (0, a.jsx)(y, {
-                    setOrdering: () => p(w.ZP.ORDER),
-                    setLabel: () => p(w.ZP.LABEL),
-                  }),
-                Z.map(
-                  (e, t) =>
-                    m[t].isShown &&
-                    (0, a.jsx)(
-                      E,
-                      {
-                        modalData: e,
-                        optionsOnClick: (e) => m[t].optionOnClick(e),
-                      },
-                      t
-                    )
-                ),
-              ],
-            }),
+            // (0, a.jsx)(v(), {
+            //   "data-original-text": "CaseStudies",
+            //   onMouseEnter: (e) => {
+            //     x(e), f();
+            //   },
+            //   onMouseDown: b,
+            //   href: "/case-studies/".concat(j.ZP[0].slug),
+            //   className:
+            //     "duration-200 border-[0.5px] hover:text-accent border-lightGray ease-in-out hover:scale-[102.5%] hover:bg-opacity-30 hover:bg-gray border-opacity-40 text-lightGray uppercase rounded-lg px-4 py-2 flex items-center justify-center gap-2 truncate",
+            //   children: "CaseStudies",
+            // }),
+            // (0, a.jsx)("button", {
+            //   type: "button",
+            //   "data-original-text": "Filter",
+            //   onMouseEnter: (e) => {
+            //     x(e), f();
+            //   },
+            //   onMouseDown: b,
+            //   onClick: () => p(w.ZP.MAIN),
+            //   className:
+            //     "duration-200 border-[0.5px] hover:text-accent border-lightGray ease-in-out hover:scale-[102.5%] hover:bg-opacity-30 hover:bg-gray border-opacity-40 text-lightGray uppercase rounded-lg px-4 py-2 flex items-center justify-center gap-2 truncate",
+            //   children: "Filter",
+            // }),
+            // (0, a.jsxs)(u.M, {
+            //   children: [
+            //     e &&
+            //       (0, a.jsx)(y, {
+            //         setOrdering: () => p(w.ZP.ORDER),
+            //         setLabel: () => p(w.ZP.LABEL),
+            //       }),
+            //     Z.map(
+            //       (e, t) =>
+            //         m[t].isShown &&
+            //         (0, a.jsx)(
+            //           E,
+            //           {
+            //             modalData: e,
+            //             optionsOnClick: (e) => m[t].optionOnClick(e),
+            //           },
+            //           t
+            //         )
+            //     ),
+            //   ],
+            // }),
           ],
         });
       }
@@ -566,30 +567,31 @@
         return (0, a.jsxs)("div", {
           className: "relative mb-8 short:mb-10",
           children: [
-            (0, a.jsx)("div", {
-              "data-scroll-section": !0,
-              className: "overflow-x-hidden w-full relative ",
-              children: (0, a.jsx)("div", {
-                ref: e,
-                "data-scroll-section": !0,
-                onMouseMove: function (e) {
-                  for (let t of document.getElementsByClassName("card")) {
-                    let s = t.getBoundingClientRect(),
-                      r = e.clientX - s.left,
-                      i = e.clientY - s.top;
-                    t.style.setProperty("--mouse-x", "".concat(r, "px")),
-                      t.style.setProperty("--mouse-y", "".concat(i, "px"));
-                  }
-                },
-                onMouseDown: o,
-                onMouseUp: c,
-                onMouseLeave: c,
-                onMouseMove: d,
-                className:
-                  "cards py-5 gap-5 w-full overflow-x-scroll overflow-y-visible px-4 snap-mandatory cursor-grab active:cursor-grabbing flex flex-1 snap-align-none flex-shrink-0 relative whitespace-nowrap group",
-                children: (0, a.jsx)(W, {}),
-              }),
-            }),
+            // case studies and supposed projects
+            // (0, a.jsx)("div", {
+            //   "data-scroll-section": !0,
+            //   className: "overflow-x-hidden w-full relative ",
+            //   children: (0, a.jsx)("div", {
+            //     ref: e,
+            //     "data-scroll-section": !0,
+            //     onMouseMove: function (e) {
+            //       for (let t of document.getElementsByClassName("card")) {
+            //         let s = t.getBoundingClientRect(),
+            //           r = e.clientX - s.left,
+            //           i = e.clientY - s.top;
+            //         t.style.setProperty("--mouse-x", "".concat(r, "px")),
+            //           t.style.setProperty("--mouse-y", "".concat(i, "px"));
+            //       }
+            //     },
+            //     onMouseDown: o,
+            //     onMouseUp: c,
+            //     onMouseLeave: c,
+            //     onMouseMove: d,
+            //     className:
+            //       "cards py-5 gap-5 w-full overflow-x-scroll overflow-y-visible px-4 snap-mandatory cursor-grab active:cursor-grabbing flex flex-1 snap-align-none flex-shrink-0 relative whitespace-nowrap group",
+            //     children: (0, a.jsx)(W, {}),
+            //   }),
+            // }),
             (0, a.jsx)("div", { className: "overlay-right" }),
             (0, a.jsx)("div", { className: "overlay-left -translate-x-4" }),
           ],
@@ -601,16 +603,16 @@
           children: (0, a.jsxs)("h1", {
             className: "flex flex-col justify-start items-start",
             children: [
-              (0, a.jsx)("span", {
-                className:
-                  "uppercase xxl:text-[4rem] xs:text-[3.5rem] text-[2.5rem] h-[2.5rem] xs:h-[3.5rem] xxl:h-[4rem] flex justify-center items-center font-bold leading-0 text-white font-outer",
-                children: "Our",
-              }),
-              (0, a.jsx)("span", {
-                className:
-                  "xxl:text-[4rem] xs:text-[3.5rem] text-[2.5rem] h-[2.5rem] xs:h-[3.5rem] font-outline font-outer xxl:h-[4rem] font-bold flex justify-center items-center leading-0 uppercase",
-                children: "Clients",
-              }),
+              // (0, a.jsx)("span", {
+              //   className:
+              //     "uppercase xxl:text-[4rem] xs:text-[3.5rem] text-[2.5rem] h-[2.5rem] xs:h-[3.5rem] xxl:h-[4rem] flex justify-center items-center font-bold leading-0 text-white font-outer",
+              //   children: "Our",
+              // }),
+              // (0, a.jsx)("span", {
+              //   className:
+              //     "xxl:text-[4rem] xs:text-[3.5rem] text-[2.5rem] h-[2.5rem] xs:h-[3.5rem] font-outline font-outer xxl:h-[4rem] font-bold flex justify-center items-center leading-0 uppercase",
+              //   children: "Clients",
+              // }),
             ],
           }),
         });

@@ -17,17 +17,5 @@ app.get("", (req, res) => {
   res.render("index", { text: "This is EJS" });
 });
 
-// app.get("/dapp", (req, res) => {
-//   res.render("dapp", { text: "dapp" });
-// });
-
-// app.get("/ai", (req, res) => {
-//   res.render("ai", { text: "ai" });
-// });
-
-// app.get("/play", (req, res) => {
-//   res.render("play", { text: "play" });
-// });
-
 //  Listen on port 3000
 app.listen(port, () => console.info(`Listening on port ${port}`));
